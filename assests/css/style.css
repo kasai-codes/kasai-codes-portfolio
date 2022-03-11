@@ -11,6 +11,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.resume a{
+color: white;
+text-decoration: none;
+}
+
+.resume a:hover {
+    color: pink;
+}
 
 .navbar {
     text-transform: uppercase;
@@ -37,7 +45,7 @@ body {
 .bg {
     width: 100%;
     z-index: 0;
-
+  
 }
 
 .bg-text {
@@ -73,9 +81,8 @@ body {
 }
 
 #about .btn:hover {
-    border: 2px solid white !important;
-    cursor: pointer;
-
+    box-shadow: 15px 4px 1px 1px pink;
+ color: pink;
 }
 
 .card {
@@ -83,8 +90,8 @@ body {
 }
 
 .card a:hover{
-    color: black;
-    
+    color: pink;
+    box-shadow: 15px 4px 1px 1px pink;
 }
 
 @media screen and (max-width: 767px) {
@@ -126,9 +133,9 @@ body {
         padding: 7px 0;
 
     }
-    
+  
 .bg-text {
-  margin-bottom: 60px;
+    position: fixed;
 }
 
     .bg-text h5 {
