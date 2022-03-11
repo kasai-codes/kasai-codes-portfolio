@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&family=Playfair+Display&display=swap');
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 20px 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    color: white;
+    padding-left: 20px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: pink;
+}
+
+.bg {
+    width: 100%;
+    z-index: 0;
+
+}
+
+.bg-text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.bg-text h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+    font-family: 'Montserrat, sans-serif';
+
+}
+
+.bg-text h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Montserrat, sans-serif';
+}
+
+.bg-text p {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Montserrat, sans-serif';
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+}
+
+#about .btn:hover {
+    border: 2px solid white !important;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+
+        letter-spacing: 0.1rem;
+
+        padding: 10px;
+
+    }
+
+
+    .bg-text h5 {
+        font-size: 3em;
+
+
+
+    }
+
+    .bg-text h1 {
+        font-size: 3em;
+
+
+    }
+
+    .bg-text p {
+        font-size: 0.9em;
+
+
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .navbar {
+
+        letter-spacing: 0.1em;
+
+        padding: 7px 0;
+
+    }
+    
+.bg-text {
+  margin-bottom: 60px;
+}
+
+    .bg-text h5 {
+        font-size: 2em;
+        
+
+
+    }
+
+    .bg-text h1 {
+        font-size: 2em;
+
+    }
+
+    .bg-text p {
+        font-size: 0.9em;
+    }
+
+}
