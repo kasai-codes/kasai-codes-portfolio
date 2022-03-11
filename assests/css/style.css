@@ -94,6 +94,7 @@ text-decoration: none;
     box-shadow: 15px 4px 1px 1px pink;
 }
 
+
 @media screen and (max-width: 767px) {
     .navbar {
 
@@ -133,25 +134,25 @@ text-decoration: none;
         padding: 7px 0;
 
     }
-  
-.bg-text {
-    position: fixed;
-}
+  .bg-text {
+    position: absolute;
+    top: 10px;
+    left:10px;
+  }
 
     .bg-text h5 {
-        font-size: 2em;
-        
-
+        font-size: 3em;
+    
 
     }
 
     .bg-text h1 {
-        font-size: 2em;
+        font-size: 1em;
 
     }
 
     .bg-text p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
 }
