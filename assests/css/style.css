@@ -78,6 +78,15 @@ body {
 
 }
 
+.card {
+    height: 100% !important;
+}
+
+.card a:hover{
+    color: black;
+    
+}
+
 @media screen and (max-width: 767px) {
     .navbar {
 
