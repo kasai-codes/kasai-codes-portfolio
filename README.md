@@ -1,4 +1,4 @@
- # Kasai Preston * Junior Web Developer
+ # < Kasai Preston Junior Web Developer >
 ## License
 ![badge](https://img.shields.io/apm/l/vim-mode?style=plastic)
 
