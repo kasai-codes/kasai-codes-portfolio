@@ -7,7 +7,7 @@
 
 ## Deployed 
 
-* [Kasai Preston portfolio](https://kasai-codes.github.io/kasaiSuperAwesomePortfolio/) 
+* [Kasai Preston portfolio](https://kasai-codes.github.io/kasai-codes-portfolio/) 
 ## Preview
 
 ![Screen shot](assests/images/screenshot.png)
