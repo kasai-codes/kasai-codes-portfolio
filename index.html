@@ -24,6 +24,7 @@
 
     <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="./assests/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -71,14 +72,18 @@
 
       <!-- BACKGROUND -->
 
-      <div class="bg">
+      <div class="bg" >
         <img
           src="./assests/images/blackwood.jpg"
           class="img-fluid background-image"
           alt="idfgn"
         />
 
-        <div class="bg-text text-center">
+        <div
+          class="bg-text text-center"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        >
           <h5>Hello, I'm</h5>
           <h1>Kasai Preston</h1>
           <p>AN ASPIRING WEB DEV</p>
@@ -101,7 +106,12 @@
     <!-- BACKGROUND END -->
 
     <!-- ABOUT -->
-    <div id="about" class="mt-5 pb-5 container">
+    <div
+      id="about"
+      class="mt-5 pb-5 container"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+    >
       <div class="post-heading text-center">
         <h3 class="display-4 font-weight-bold">About Me</h3>
         <hr class="w-50 mx-auto pb-2" />
@@ -116,7 +126,11 @@
           />
         </div>
 
-        <div class="col-lg-6 col-md-6 col-12">
+        <div
+          class="col-lg-6 col-md-6 col-12"
+          data-aos="fade-right"
+          data-aos-duration="1"
+        >
           <h2>Want to get to know me?</h2>
           <hr />
           <p>
@@ -154,7 +168,7 @@
 
       <!-- PROJECT 1 -->
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in-right"  data-aos-duration="3000" class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <img
               src="./assests/images/Tutor Tea.png"
@@ -176,7 +190,7 @@
         </div>
 
         <!-- PROJECT 2 -->
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in" data-aos-duration="3000"  class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <img
               src="./assests/images/HoliDAZE123 (1).png"
@@ -196,7 +210,7 @@
         </div>
 
         <!-- WEATHER APP -->
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in-left" data-aos-duration="3000"   class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <img
               src="./assests/images/Weather App (1).png"
@@ -216,7 +230,7 @@
         </div>
 
         <!-- DEV SHCHMOOZE -->
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in-right"  data-aos-duration="3000" class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <img
               src="./assests/images/Developer schmoozeCardpng.png"
@@ -236,7 +250,7 @@
         </div>
 
         <!-- BACKEND E-COMMERCE -->
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <div style="position: relative; padding-bottom: 56.25%; height: 0">
               <iframe
@@ -268,7 +282,7 @@
 
         <!-- NOTE TAKER -->
 
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div data-aos="zoom-in-left" data-aos-duration="3000"   class="col-lg-4 col-md-6 col-12 pb-5">
           <div class="card">
             <img
               src="./assests/images/Note Taker.png"
@@ -297,11 +311,7 @@
     <!-- CONTACT -->
 
     <footer class="bg-light text-center text-lg-start" id="contact">
-     
-
       <ul class="text-center d-flex justify-content-evenly">
-      
-
         <li>
           <a href="https://github.com/kasai-codes"
             ><i class="bi bi-github text-black" style="font-size: 3rem"></i
@@ -321,5 +331,9 @@
         </li>
       </ul>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
